@@ -69,10 +69,10 @@ onMounted(() => {
   if (dic.value['S'] > dic.value['N']) answer += 'S';
   else answer += 'N';
 
-  if (dic.value['T'] > dic.value['F']) answer += 'F';
+  if (dic.value['T'] > dic.value['F']) answer += 'T';
   else answer += 'F';
 
-  if (dic.value['J'] > dic.value['P']) answer += 'F';
+  if (dic.value['J'] > dic.value['P']) answer += 'J';
   else answer += 'P';
 
   for (let i = 0; i < 16; i ++ ) {
